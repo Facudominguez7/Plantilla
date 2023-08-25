@@ -1,0 +1,108 @@
+#cabecero {
+  background-color: black;
+  margin-top: -0.9%;
+  margin-right: -0.9%;
+  margin-left: -0.89%;
+  border-bottom: 13px solid rgba(220, 245, 94, 0.937);
+}
+#cabecero #palabra {
+    color: white ;
+    margin-left: 70%;
+    margin-bottom: -0.5%;
+    padding-bottom: -15%;
+    vertical-align: sub;
+    color: aliceblue;
+    font-weight: normal;
+    font-size: 35px;
+
+}
+#cabecero #palabra2 {
+    font-weight: normal;
+    color: gray;
+    margin: 0px;
+    padding-left: 73%;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu {
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 15%;
+  padding-top: 1%;
+  padding-left: 3%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  overflow: hidden;
+  background: linear-gradient(359deg, #383434, #242222);
+  border: 1px black;
+  border-radius: 100px;
+}
+
+#menu li  {
+  float: right;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-left: 0%;
+  margin-right: 20px;
+  
+}
+li .linea_nav{
+    border-left: 1px solid rgb(15, 14, 14);
+    padding-left: 20%;
+    float: right;
+}
+
+#menu li a {
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 120%; /* Tamaño de fuente de 20px */
+    font-family: Arial, sans-serif;
+}
+#menu a:hover {
+  color: green;
+}
+header {
+    background: linear-gradient(359deg, #0e0e0e, #686262);
+    padding-top: 0.1%;
+    padding-bottom: 2%;
+    margin-left: -0.5%;
+    margin-right: -0.5%;
+}
+#caja_padre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#caja_padre #caja_imagen{
+    display: flex;
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 33%;
+    
+}
+#caja_imagen #imagen {
+    width: 200%;
+}
+#caja_texto{
+    display: flex;
+    margin-left: 1%;
+}
+#caja_texto h1 {
+    color: aliceblue;
+    font-weight: normal;
+}
+#caja_texto #parrafo {
+    font-weight: normal;
+    color: #686262;
+}
+
+
+
+
+
